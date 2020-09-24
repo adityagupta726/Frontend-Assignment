@@ -1,0 +1,146 @@
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9fdfd;
+}
+
+.form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgb(204, 202, 202);
+  background-color: #ffffff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.firstName,
+.lastName,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.firstName,
+.lastName {
+  width: 100%;
+}
+
+.email,
+.password {
+  width: 100%;
+}
+
+.createAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createAccount button {
+  background-color: #0c9bbe;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+.createAccount a {
+  color: #10ada6;
+  text-decoration: none;
+}
+
+.createAccount button:hover {
+  color: #519e8a;
+  background-color: #fff;
+  border: 2px solid #0c93d1;
+}
+
+.createAccount small {
+  color: #999;
+  font-weight: lighter;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: dimgray;
+}
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid rgb(228, 223, 223);
+}
+.logo {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+}
+
+
+.form-wrapper p {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 12px;
+}
